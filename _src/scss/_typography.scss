@@ -1,0 +1,119 @@
+.oswald {
+  font-family: "Oswald", sans-serif;
+  font-size: 16px;
+
+  strong {
+    font-weight: 500;
+  }
+}
+
+.lato {
+  font-family: "Lato", sans-serif;
+  font-size: 16px;
+}
+
+.heebo {
+  font-family: "Heebo", sans-serif;
+}
+
+body,
+html {
+  @extend .heebo;
+
+  font-size: 16px;
+  color: $charcoal;
+}
+
+h1 {
+  @extend .oswald;
+}
+
+h2 {
+  @extend .oswald;
+  font-size: 3.125rem;
+  font-weight: 400;
+  color: $brand-blue;
+  margin-bottom: 30px;
+}
+
+h3 {
+  @extend .oswald;
+  font-size: 2.3rem;
+  color: $brand-blue;
+  font-weight: 300;
+  margin-bottom: 20px;
+}
+
+h4 {
+  @extend .oswald;
+  font-size: 1.25rem;
+  font-weight: 400;
+  color: $secondary-blue;
+  margin-bottom: 15px;
+}
+
+h6 {
+  font-size: 1rem;
+}
+
+.main-paragraph {
+  font-size: 1.125rem;
+  line-height: 2rem;
+}
+
+p {
+  font-size: 1rem;
+}
+
+a {
+  &:hover {
+    text-decoration: none;
+  }
+}
+
+q {
+  font-size: 1.8rem;
+  font-style: italic;
+  color: $brand-blue;
+  background: $light-gray;
+  padding: 20px;
+  margin: 15px 0px;
+  display: block;
+  @extend .oswald;
+
+  &:before {
+    font-family: "Font Awesome 5 Pro";
+    content: "\f10d";
+    font-size: 2rem;
+    font-weight: 900;
+  }
+
+  &:after {
+    font-family: "Font Awesome 5 Pro";
+    content: "\f10e";
+    font-size: 2rem;
+    font-weight: 900;
+  }
+}
+
+p {
+  &.author {
+    font-size: 1.25rem;
+
+    span {
+      top: -10px;
+      position: relative;
+      font-size: 1rem;
+    }
+  }
+}
+
+a {
+  color: $brand-blue;
+}
+
+footer {
+  a {
+    color: $white;
+  }
+}

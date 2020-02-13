@@ -1,0 +1,28 @@
+$white: #ffffff;
+$black: #000000;
+$charcoal: #333333;
+$light-gray: #fbfbfb;
+$dark-gray: #707070;
+$medium-gray: #b1b1b1;
+$red: #cc0000;
+
+$brand-blue: #005170;
+$secondary-blue: #3e95d1;
+$light-blue: #f2fdff;
+$medium-blue: #cfe6f2;
+
+*:focus {
+  outline: 0;
+}
+
+button:focus {
+  outline: 0;
+}
+
+html {
+  overflow-x: hidden;
+}
+
+.container {
+  max-width: 1240px;
+}

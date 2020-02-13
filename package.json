@@ -1,0 +1,38 @@
+{
+  "name": "Bridge Marketing",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "@fortawesome/fontawesome-pro": "^5.11.2",
+    "bootstrap": "^4.0.0",
+    "browser-sync": "^2.26.0",
+    "datatables.net-bs4": "^1.10.16",
+    "datatables.net-dt": "^1.10.16",
+    "daterangepicker": "^2.1.27",
+    "font-awesome": "^4.7.0",
+    "gulp": "^3.9.1",
+    "gulp-concat": "^2.6.1",
+    "gulp-rename": "^1.4.0",
+    "gulp-sass": "^3.1.0",
+    "gulp-uglify": "^3.0.0",
+    "gulp-uglify-es": "^1.0.4",
+    "jquery": "^3.3.1",
+    "popper.js": "^1.14.4"
+  },
+  "dependencies": {
+    "aos": "^3.0.0-beta.6",
+    "flickity": "^2.1.2",
+    "handlebars": "^4.1.2",
+    "jquery-mobile": "^1.5.0-alpha.1",
+    "jquery-typeahead": "^2.10.4",
+    "jquery-ui-dist": "^1.12.1",
+    "jquery.mb.ytplayer": "^3.2.10",
+    "modernizr": "^3.7.1"
+  }
+}
