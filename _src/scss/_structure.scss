@@ -81,6 +81,7 @@ header {
   position: relative;
   background-color: #000;
   @extend .slow-ease;
+  min-height:800px;
   //background-image:url('../images/home-bg.png');
 
   .hero-player {

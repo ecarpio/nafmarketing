@@ -564,6 +564,7 @@ header .navbar-toggler {
   height: 100vh;
   position: relative;
   background-color: #000;
+  min-height: 800px;
 }
 
 .hero .hero-player {
