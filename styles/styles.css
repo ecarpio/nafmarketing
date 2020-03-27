@@ -728,7 +728,7 @@ section {
 }
 
 .work.work-bv .background-back {
-  background-image: url("../../images/city-bg.png");
+  background-image: url("../images/city-bg.png");
   background-repeat: repeat-x;
   background-position: bottom left;
   position: absolute;
@@ -739,7 +739,7 @@ section {
 }
 
 .work.work-bv .background-front {
-  background-image: url("../../images/town-bg.png");
+  background-image: url("../images/town-bg.png");
   background-repeat: repeat-x;
   background-position: bottom left;
   position: absolute;

@@ -240,7 +240,7 @@ section {
     background-color: $light-blue;
     position: relative;
     .background-back {
-      background-image: url("../../images/city-bg.png");
+      background-image: url("../images/city-bg.png");
       background-repeat: repeat-x;
       background-position: bottom left;
       position: absolute;
@@ -251,7 +251,7 @@ section {
     }
 
     .background-front {
-      background-image: url("../../images/town-bg.png");
+      background-image: url("../images/town-bg.png");
       background-repeat: repeat-x;
       background-position: bottom left;
       position: absolute;
