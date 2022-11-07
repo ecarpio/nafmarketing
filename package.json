@@ -16,7 +16,7 @@
     "datatables.net-dt": "^1.10.16",
     "daterangepicker": "^2.1.27",
     "font-awesome": "^4.7.0",
-    "gulp": "^3.9.1",
+    "gulp": "^4.0.2",
     "gulp-concat": "^2.6.1",
     "gulp-rename": "^1.4.0",
     "gulp-sass": "^3.1.0",
